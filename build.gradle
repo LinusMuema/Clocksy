@@ -2,7 +2,8 @@ buildscript {
     ext {
         ktor_version = '1.6.5'
         kotlin_version = '1.5.31'
-        compose_version = '1.0.4'
+        compose_version = '1.0.5'
+        accompanist_version = '0.18.0'
     }
     repositories {
         google()

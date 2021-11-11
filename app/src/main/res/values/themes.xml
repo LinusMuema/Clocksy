@@ -1,6 +1,6 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <style name="Theme.Clocksy" parent="Theme.MaterialComponents.NoActionBar">
-        <item name="android:navigationBarColor">@color/light</item>
-        <item name="android:statusBarColor" tools:targetApi="l">@color/light</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
     </style>
 </resources>
