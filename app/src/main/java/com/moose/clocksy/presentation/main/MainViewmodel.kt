@@ -1,11 +1,12 @@
-package com.moose.clocksy
+package com.moose.clocksy.presentation.main
 
 import android.location.Location
-import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.moose.clocksy.domain.Weather
+import com.moose.clocksy.remote.NetworkService
 import kotlinx.coroutines.launch
 
 class MainViewmodel: ViewModel() {

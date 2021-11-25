@@ -1,4 +1,4 @@
-package com.moose.clocksy
+package com.moose.clocksy.domain
 
 import kotlinx.serialization.Serializable
 

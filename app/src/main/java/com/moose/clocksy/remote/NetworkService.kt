@@ -1,5 +1,6 @@
-package com.moose.clocksy
+package com.moose.clocksy.remote
 
+import com.moose.clocksy.domain.Weather
 import io.ktor.client.*
 import io.ktor.client.features.json.*
 import io.ktor.client.features.json.serializer.*
@@ -9,7 +10,7 @@ import kotlinx.serialization.json.Json as json
 
 object NetworkService {
 
-    private const val api_key = "08ddb507c49eac97f0e0db17928ab960"
+    private const val api_key = "8cbfa5c61330375553fc18b29dcd7f0d"
     private const val base_url = "https://api.openweathermap.org/data/2.5/"
 
     private val client = HttpClient{

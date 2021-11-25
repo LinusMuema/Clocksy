@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/ic_humidity.xml" value="0.14635416666666667" />
+        <entry key="app/src/main/res/drawable/ic_sun.xml" value="0.23148148148148148" />
         <entry key="app/src/main/res/drawable/ic_temperature.xml" value="1.25" />
       </map>
     </option>
